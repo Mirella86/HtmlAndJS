@@ -58,6 +58,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Calculator.html" />
+    <Content Include="Content\calculator.css" />
+    <Content Include="Images\ContosoLogo.png" />
+    <None Include="Scripts\jquery-2.1.0.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.0.js" />
+    <Content Include="Scripts\jquery-2.1.0.min.js" />
     <Content Include="Tests.html" />
     <Content Include="Content\qunit.css" />
     <Content Include="default.html" />
@@ -78,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Scripts\jquery-2.1.0.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -2,8 +2,8 @@
 var txtResult;
 
 function initialize() {
-    txtInput = document.getElementById('txtInput');
-    txtResult = document.getElementById('txtResult');
+    txtInput = $('#txtInput');
+    txtResult = $('#txtResult');
 
     for (var i = 0; i < 10; i++) {
         document.getElementById('btn' + i).addEventListener('click',
@@ -14,7 +14,8 @@ function initialize() {
     document.getElementById('btnMinus').addEventListener('click', minusClick, false);
     document.getElementById('btnClearEntry').addEventListener('click', clearEntryClick, false);
     document.getElementById('btnClear').addEventListener('click', clearAllClick, false);
-
+    document.getElementById('btnMultiplication').addEventListener('click', multiplicationClick, false);
+    document.getElementById('btnDivision').addEventListener('click', divisionClick, false);
     clearAllClick();
 }
 
@@ -32,8 +33,19 @@ function minusClick() {
     txtInput.value = '0';
 }
 
-function clearEntryClick() {
+function multiplicationClick() {
+    txtResult.value = Number(txtInput.value) * Number(txtResult.value);
     txtInput.value = '0';
+}
+
+
+function divisionClick() {
+    txtResult.value = Number(txtInput.value) / Number(txtResult.value);
+    txtInput.value = '0';
+}
+
+function clearEntryClick() {
+    txtInput.val('0');
 }
 
 function clearAllClick() {

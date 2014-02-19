@@ -2,9 +2,10 @@
 
 test("Initialize Test", function () {
     expect(2);
-    //   txtInput.value = '';
-    //   txtResult.value = '';
+    txtInput.value = '';
+    txtResult.value = '';
     var expected = '0';
+    initialize();
     equal(txtInput.value, expected, 'Expected value: ' + expected +
     ' Actual value: ' + txtInput.value);
     equal(txtResult.value, expected, 'Expected value: ' + expected +
@@ -60,6 +61,33 @@ test("Substract Test", function () {
         ' Actual value: ' + txtInput.value);
 });
 
+
+test("Multiplication Test", function () {
+    expect(2);
+    txtInput.value = '10';
+    txtResult.value = '20';
+    var btnMultiplication = document.getElementById('btnMultiplication');
+    QUnit.triggerEvent(btnMultiplication, "click");
+    var expected = '200';
+    equal(txtResult.value, expected, 'Expected value: ' + expected +
+    ' Actual value: ' + txtResult.value);
+    var expectedInput = '0';
+    equal(txtInput.value, expectedInput, 'Expected value: ' + expectedInput +
+        ' Actual value: ' + txtInput.value);
+});
+
+
+test("Division Test", function () {
+    expect(2);
+    txtInput.value = '100';
+    txtResult.value = '25';
+    var btnDivision = document.getElementById('btnDivision');
+    QUnit.triggerEvent(btnDivision, 'click');
+    var expected = '4';
+    equal(txtResult.value, expected, 'Expected value: ' + expected + ' Actual value: ' + txtResult.value);
+    var expectedInput = '0';
+    equal(txtInput.value, expectedInput, 'Expected value: ' + expectedInput + ' Actual value: ' + txtInput.value);
+});
 
 test("Clear Entry Test", function () {
     expect(1);

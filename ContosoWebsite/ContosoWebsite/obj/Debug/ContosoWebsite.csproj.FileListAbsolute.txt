@@ -3,3 +3,8 @@ D:\Self study - training\HTML5 & JavaScript\ContosoWebsite\ContosoWebsite\bin\Co
 D:\Self study - training\HTML5 & JavaScript\ContosoWebsite\ContosoWebsite\obj\Debug\ContosoWebsite.csprojResolveAssemblyReference.cache
 D:\Self study - training\HTML5 & JavaScript\ContosoWebsite\ContosoWebsite\obj\Debug\ContosoWebsite.dll
 D:\Self study - training\HTML5 & JavaScript\ContosoWebsite\ContosoWebsite\obj\Debug\ContosoWebsite.pdb
+D:\Git\HtmlAndJS\ContosoWebsite\ContosoWebsite\bin\ContosoWebsite.dll
+D:\Git\HtmlAndJS\ContosoWebsite\ContosoWebsite\bin\ContosoWebsite.pdb
+D:\Git\HtmlAndJS\ContosoWebsite\ContosoWebsite\obj\Debug\ContosoWebsite.csprojResolveAssemblyReference.cache
+D:\Git\HtmlAndJS\ContosoWebsite\ContosoWebsite\obj\Debug\ContosoWebsite.dll
+D:\Git\HtmlAndJS\ContosoWebsite\ContosoWebsite\obj\Debug\ContosoWebsite.pdb
