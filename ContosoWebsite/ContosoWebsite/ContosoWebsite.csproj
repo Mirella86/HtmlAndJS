@@ -63,6 +63,7 @@
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.0.js" />
     <Content Include="Scripts\jquery-2.1.0.min.js" />
+    <Content Include="Scripts\_references.js" />
     <Content Include="Tests.html" />
     <Content Include="Content\qunit.css" />
     <Content Include="default.html" />
