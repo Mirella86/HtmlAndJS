@@ -12,13 +12,12 @@ test("Initialize Test", function () {
 });
 
 
-
 test("Button Click Test", function () {
     var buttonQuantity = 10;
     expect(buttonQuantity * 2);
     for (var i = 0; i < buttonQuantity; i++) {
         $('#btnNumber' + i).triggerHandler('click');
-        var result = $('#txtInput').val([$('#txtInput').val().length - 1]);
+        var result = $('#txtInput').val()[$('#txtInput').val().length - 1];
         var expected = String(i);
         equal(result, expected, 'Expected value: ' + expected +
         ' Actual value: ' + result);

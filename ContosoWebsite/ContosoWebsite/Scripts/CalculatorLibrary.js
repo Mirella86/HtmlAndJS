@@ -4,7 +4,7 @@
     this.calculatorNamespace = this.calculatorNamespace || {};
     var ns = calculatorNamespace;
 
-    function initialize() {
+    ns.initialize = function () {
         var calculator = new ns.Calculator();
 
         $('button[id^="btnNumber"]').on('click', calculator.numberClick);
@@ -16,7 +16,7 @@
         $('#btnMultiplication').on('click', calculator.multiplicationClick);
         $('#btnDivision').on('click', calculator.divisionClick);
 
-        clearAllClick();
+        calculator.clearAllClick();
     }
 
     ns.Calculator = (function () {
